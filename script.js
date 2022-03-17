@@ -6,7 +6,7 @@ botao.addEventListener("click", function(){
 
     if(botao.value == "first"){
         situacao.innerText = "Tranquilo"
-        imagem.src = "/IMAGES/tranquilo.png" 
+        imagem.src = "/tranquilo.png" 
         botao.value = "second"
 
     }else if(botao.value == "second"){
